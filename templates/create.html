@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./../static/create.css" />
+  </head>
+  <body>
+    <!-- Navbar Div -->
+    <div class="navbar-div">
+      <h1 class="nav-logo" onclick="location.href='./';">TabSpace.</h1>
+      <div class="nav-line"></div>
+      <div class="profile-div">
+        <img
+          src="./../static/assets/user.png"
+          alt=""
+          class="profile-icon"
+        />Michael
+      </div>
+      <div class="search-div" contenteditable="True" style="outline: 0">
+        <img
+          src="./../static/assets/magnifying-glass.png"
+          alt=""
+          class="search-icon"
+        />Search NFT
+      </div>
+      <button class="create-navbtn" onclick="location.href='./create.html';">
+        Create
+      </button>
+    </div>
+
+    <!-- Form Div -->
+    <div class="form-div">
+      <div class="name-div">
+        <div class="name-label">Collection Name</div>
+        <div class="name-input" contenteditable="True" style="outline: 0;"></div>
+      </div>
+      <div class="nft-div">
+        <div class="nft-label">NFT Name</div>
+        <div class="nft-input" contenteditable="True" style="outline: 0;"></div>
+      </div>
+      <div class="prompt-div">
+        <div class="prompt-label">Image Prompt</div>
+        <div
+          class="prompt-input"
+          contenteditable="True"
+          style="outline: 0;"
+        ></div>
+      </div>
+      <button class="generate-btn" onclick="generate();">Generate NFT</button>
+    </div>
+
+    <!-- Collection Div -->
+    <div class="nft6-div">
+      <img src="./../static/assets/TYA.png" alt="" class="nft6-img" />
+      <div class="nft6-textdiv">
+        <h1 class="nft6-h1">TYA</h1>
+        <h2 class="nft6-acr">
+          <img
+            src="./../static/assets/user.png"
+            alt=""
+            class="profile-icon1"
+          />Michael
+        </h2>
+        <h3 class="nft6-coll">Collection</h3>
+      </div>
+
+    <!-- Footer Div -->
+    <!-- <div class="footer-div">
+      <div class="footer-h2">© 2022 Tabspace. All Rights Reserved</div>
+      <p class="footer-privacy">Privacy Policy</p>
+      <p class="footer-terms">Terms of Service</p>
+    </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./../static/create.js"></script>
+  </body>
+</html>

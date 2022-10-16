@@ -1,0 +1,22 @@
+{
+  "decimals": 0,
+  "isBooleanAmount": true,
+  "name": "qmhdvw",
+  "description": "",
+  "tags": [
+    "awesome",
+    "nft"
+  ],
+  "minter": "tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb",
+  "artifactUri": "ipfs://QmTCcTgfyKDbDbCxxkPG74ea2TcjRn3o9mq6EPdfKhL2tN",
+  "displayUri": "ipfs://QmTCcTgfyKDbDbCxxkPG74ea2TcjRn3o9mq6EPdfKhL2tN",
+  "thumbnailUri": "ipfs://QmTCcTgfyKDbDbCxxkPG74ea2TcjRn3o9mq6EPdfKhL2tN",
+  "creators": [],
+  "rights": "",
+  "attributes": [
+    {
+      "name": "sample attribute",
+      "value": "sample value"
+    }
+  ]
+}

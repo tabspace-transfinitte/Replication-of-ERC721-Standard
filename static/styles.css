@@ -1,0 +1,458 @@
+:root {
+    --primary: #121212;
+    --secondary: #01fd8d;
+    --text: #FFFFFF;
+    --grid: #000000;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+    background-color: var(--primary);
+}
+
+button:hover {
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+    cursor: pointer;
+}
+.footer-div p:hover {
+    cursor: pointer;
+    border-bottom: 1.5px solid var(--text);
+}
+
+/* Navbar */
+
+.navbar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 2.5rem 4.5rem 0.5rem;
+}
+
+.nav-logo {
+    cursor: pointer;
+    margin: 0rem 0rem;
+    position: relative;
+    right: 3rem;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.nav-line {
+    height: 2.5rem;
+    width: 0.3rem;
+    background-color: var(--secondary);
+    position: relative;
+    right: 7rem;
+}
+
+.profile-div {
+    font-size: 1.2rem;
+    position: relative;
+    right: 9.5rem;
+    font-weight: 500;
+}
+
+.profile-icon {
+    height: 1.5rem;
+    position: relative;
+    top: 0.25rem;
+    right: 0.9rem;
+}
+
+.search-div {
+    margin: 0;
+    padding: 0.1rem 0 0 2.5rem;
+    position: relative;
+    right: 5rem;
+    height: 2.4rem;
+    border-radius: 2.5rem;
+    width: 22rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid white;
+}
+
+.search-icon {
+    height: 1.5rem;
+    position: relative;
+    top: 0.35rem;
+    right: 1rem;
+}
+
+.create-navbtn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 0;
+    border-radius: 2.6rem;
+    margin: 0;
+    padding: 0 1.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    right: 7.5rem;
+    z-index: 1;
+}
+.create-navbtn:hover {
+    padding: 0 1.38rem;
+}
+
+
+/* Left Div */
+.left-div {
+    margin: 0;
+    padding: 0.5rem 0rem 0rem 3.5rem;
+    background-color: var(--primary);
+    float: left;
+    height: 80rem;
+    width: 60rem;
+}
+
+.main-h1 {
+    font-family: 'Source Serif Pro', serif;
+    width: 25rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.main-p {
+    width: 25rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.create-btn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 0;
+    border-radius: 2.6rem;
+    margin: 0;
+    padding: 0 1.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 1rem;
+}
+
+.collection-h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Source Serif Pro', serif;
+    margin: 3rem 0 2rem;
+}
+
+/* Grid Div */
+.grid-div {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 13rem 13rem 13rem;
+    grid-template-rows: 23rem 23rem;
+    grid-gap: 4rem 2rem;
+    color: white;
+}
+
+.nft1-div,
+.nft2-div,
+.nft3-div,
+.nft4-div,
+.nft5-div,
+.nft6-div {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    width: 13rem;
+    height: 23rem;
+    background-color: var(--grid);
+}
+
+.nft1-img {
+    margin: 0;
+    height: 18rem;
+    position: relative;
+    right: 2.8rem;
+    bottom: 2rem;
+}
+
+.nft2-img {
+    margin: 0 0 3rem;
+    height: 15rem;
+    position: relative;
+    right: 1rem;
+}
+
+.nft3-img {
+    margin: 0 0 3rem;
+    height: 15rem;
+    position: relative;
+    right: 1.3rem;
+    bottom: 0.2rem;
+}
+
+.nft4-img {
+    margin: 0 0 3rem;
+    height: 15rem;
+    position: relative;
+    right: 1.4rem;
+}
+
+.nft5-img {
+    margin: 0 0 3rem;
+    height: 15rem;
+    position: relative;
+    right: 1rem;
+}
+
+.nft6-img {
+    margin: 0 0 3rem;
+    height: 17rem;
+    position: relative;
+    right: 2.3rem;
+}
+
+.nft1-textdiv,
+.nft2-textdiv,
+.nft3-textdiv,
+.nft4-textdiv,
+.nft5-textdiv,
+.nft6-textdiv {
+    margin: 0;
+    padding: 0 1rem;
+    position: relative;
+    bottom: 12rem;
+}
+
+.nft6-textdiv {
+    position: relative;
+    bottom: 14rem;
+}
+
+.nft1-h1,
+.nft2-h1,
+.nft3-h1,
+.nft4-h1,
+.nft5-h1,
+.nft6-h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.nft1-acr,
+.nft2-acr,
+.nft3-acr,
+.nft4-acr,
+.nft5-acr,
+.nft6-acr {
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.profile-icon1 {
+    position: relative;
+    height: 1.5rem;
+    top: 0.25rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.nft1-current,
+.nft2-current,
+.nft3-current,
+.nft4-current,
+.nft5-current,
+.nft6-current {
+    font-size: 0.7rem;
+    font-weight: 400;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.nft1-price,
+.nft2-price,
+.nft3-price,
+.nft4-price,
+.nft5-price,
+.nft6-price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 2.1rem;
+    right: 0.1rem;
+}
+
+.nft1-viewbtn,
+.nft2-viewbtn,
+.nft3-viewbtn,
+.nft4-viewbtn,
+.nft5-viewbtn,
+.nft6-viewbtn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 0;
+    border-radius: 2.1rem;
+    margin: 0;
+    padding: 0 1.2rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.vline-div {
+    background-color: var(--secondary);
+    height: 75rem;
+    width: 0.05rem;
+    position: relative;
+    right: 13.7rem;
+    top: 5rem;
+    float: left;
+}
+/* Right Div */
+.right-div {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: var(--primary);
+    position: relative;
+    left: 50rem;
+    height: 80rem;
+    width: 30rem;
+    position: relative;
+}
+
+.nft0-img {
+    margin: 0;
+    height: 30rem;
+    position: absolute;
+    float: right;
+    bottom: 45rem;
+    left: 0;
+}
+
+.nft0-textdiv {
+    padding: 5rem;
+    position: relative;
+    bottom: 60rem;
+}
+
+.nft0-h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.nft0-acr {
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 3rem;
+}
+
+.profile-icon2 {
+    position: relative;
+    height: 2.5rem;
+    top: 0.5rem;
+    margin: 0 1rem 0 0;
+}
+
+.desc0 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    width: 21.5rem;
+    position: relative;
+}
+
+.nft0-current {
+    position: relative;
+    font-size: 0.85rem;
+    font-weight: 700;
+    top: 3.5rem;
+}
+
+.nft0-price {
+    margin: 3rem 0 4.5rem;
+    font-size: 3rem;
+    font-weight: 800;
+    position: relative;
+    right: 0.2rem;
+}
+
+.inputbid-div {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    border: 2px solid white;
+    width: 16rem;
+    border-radius: 10rem;
+    float: left;
+}
+
+.place-btn {
+    text-align: left;
+    color: var(--primary);
+    background-color: var(--secondary);
+    border: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.6rem 2.1rem;
+    width: 20rem;
+    border-radius: 10rem;
+    position: relative;
+    top: 2rem;
+}
+
+/* Footer Div */
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 0rem;
+}
+
+.footer-h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    top: 0.2rem;
+    right: 4rem;
+}
+
+.footer-privacy,
+.footer-terms {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.25rem;
+    border-bottom: 1.5px solid var(--secondary);
+}
+
+.footer-privacy {
+    position: relative;
+    left: 13rem;
+}
+
+.footer-terms {
+    position: relative;
+    left: 3rem;
+}
